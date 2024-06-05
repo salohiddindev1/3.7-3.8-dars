@@ -1,0 +1,74 @@
+.flag-btn a button {
+  border-radius: 10px;
+  color: white;
+  background-color: #2b3844;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+}
+
+.flag-right-wrapper {
+  display: flex;
+  gap: 50px;
+}
+
+.flag-right-wrapper__left p,
+.flag-right-wrapper__right p {
+  padding: 10px 0;
+  color: white;
+}
+
+.flag-footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.flag-footer button {
+  padding: 10px 20px;
+  background-color: #2b3844;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.flag-footer button:hover {
+  background-color: #526a81eb;
+}
+
+.flag-footer button:active {
+  transform: scale(0.9) translateY(10px);
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0 20px;
+  }
+  .flag-wrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0 20px;
+  }
+  .flag-wrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    padding: 0 20px;
+  }
+  .flag-wrapper {
+    flex-direction: column;
+  }
+}
